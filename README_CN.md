@@ -38,6 +38,11 @@
 git clone https://github.com/blinkfox/hexo-theme-matery.git
 ```
 
+因为 hexo-theme-brief 使用了 ejs 模版引擎 、 Less CSS预编译语言以及在官方插件的基础上 进行功能的开发，以下为必装插件：
+
+```
+npm i hexo-renderer-ejs hexo-renderer-less hexo-deployer-git -S
+```
 ## 配置
 
 ### 切换主题
